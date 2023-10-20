@@ -8,11 +8,12 @@ In addition you need to install: [plenary.nvim](https://github.com/nvim-lua/plen
 For example with **Lazy.nvim**:
 ```
     {
-        "HannHank/monitir.nvim"
+        "HannHank/monitor.nvim",
         dependencies = {"nvim-lua/plenary.nvim"}
     }
 
 ```
+
 ## Usage
 For now after installation the command :*Monitor* will be (hopefully) available in neovim. 
 The UI is basically just a floating buffer that gets filled with the current configuration of your setup.
@@ -38,6 +39,5 @@ For me it is faster and easier to use this plugin to manage my monitors despite 
 
 So I set a timer of around 2hours and wrote this plugin. The code is not very robust with a lost of regex magic and things that could be done cleaner with more time.
 Maybe in the future I will upate this to be more cleaner and support custom config to setup keybindings and maybe even profiles to save current configs.
-
 
 
