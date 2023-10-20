@@ -1,0 +1,11 @@
+{
+    "workspace.library": [
+        "/home/arch-johann/.local/share/nvim/lazy/neodev.nvim/types/stable",
+        "/usr/share/nvim/runtime/lua",
+        "/home/arch-johann/.local/share/nvim/lazy/neodev.nvim/types/stable",
+        "/usr/share/nvim/runtime/lua",
+        "/home/arch-johann/Documents/lua/monitor/lua",
+        "/home/arch-johann/Documents/lua/monitor/lua",
+        "${3rd}/luv/library"
+    ]
+}
